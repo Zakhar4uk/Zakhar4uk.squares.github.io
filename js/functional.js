@@ -67,7 +67,7 @@ function initStartCount() {
 let level_raz = [3, 5, 6];
 let level_kol = [8, 10, 12];
 let color_rect = ['#1b4281', '#447c94', '#585f9f', '#91457b', '#4f2a60', '#181421','#e2b1b4'];
-var rect_raz = 160;
+var rect_raz = 120;
 var otstup_rect = 110;
 var rect_width = rect_raz + 20;
 
