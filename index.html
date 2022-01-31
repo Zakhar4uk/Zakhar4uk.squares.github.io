@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Квадраты Захарчука</title>
+            <meta charset='utf-8' />
+            <link
+             rel="stylesheet" type="text/css" href="css/style.css" />
+        </head>
+        <body>
+            <div id="start">
+                <p style="text-align: center; font-size: 35px; font-weight:bold; color: white;">Правила игры</p>
+                <p style="text-align: center; font-size: 25px;color: white;">Найти совпадающий квадртат как в образце и сравнить их. Если квадраты одинаковы, произойдет переход на следующий уровень. Всего в игре 3 уровня. Каждый уровень ограничен числом попыток, а так же и временем.</p>
+                <p style="text-align: center; font-size: 30px;color: white;">Удачи!</p>
+                <br>
+                <p><button id="new_game_button" onclick="new_game()">Начать игру</button></p>
+                <div id="name_player">
+                    <p style="font-weight:bold;color: white">Укажите имя</p>
+                    <input type="text" class="form-control" id="name_input" />
+                    <button onclick="input_name()"  class="btn" >Подтвердить</button>
+                </div>
+            </div>
+            <content id="game">
+                <p id="time"></p>
+                <p id="pops"></p>
+                <p id="level"></p>
+                <p><button id='id' onclick="click_button()">Сравнить</button></p>
+                <script src="js/functional.js"></script>
+                <canvas id='main_rect'></canvas>
+                <canvas id='answer_rect' class='put_in'></canvas>
+                <script src="js/stopwatch.js"></script>
+            </content>
+            <div id="good">
+                <p style="text-align: center; font-size: 70px; font-weight:bold; color: white;">Вы выиграли</p>
+                <p id='score'></p>
+                <p><button onclick="new_game_new()">Повторить</button></p>
+                <p class="btnSave"><button onclick = "result_save()">Результат</button></p>
+            </div>
+            <div id="bad">
+                <p style="text-align: center; font-size: 70px; font-weight:bold; color: white;">Проигрыш</p>
+                <p id='score'></p>
+                <p><button onclick="new_game_new()">Повторить</button></p>
+                <p class="btnSave"><button onclick = "result_save()">Результат</button></p>
+            </div>
+        </body>
+    </html>

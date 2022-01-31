@@ -1,0 +1,223 @@
+body{
+    background: url(../img/fon2.jpg) no-repeat ;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%; 
+}
+#start{
+    width: 80%;
+    visibility: hidden;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#start p{
+    text-align: justify;
+}
+
+#start{
+    font-size: 30px;
+    position: absolute;
+}
+
+#new_game_button{
+    
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 70px 1px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black; 
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#new_game_button:hover{
+    background-color: #103f49;
+}
+
+#main_rect{
+    position: absolute;
+    left: 90%;
+}
+
+#answer_rect{
+    position: absolute;
+    left: 81%;
+}
+
+#rect_new{
+    position: absolute;
+    
+    
+}
+
+#rect_answer{
+    position: absolute;
+    
+}
+
+#rect_new{
+    transform:  all 0.5s ease;
+    
+}
+
+#rect_answer{
+    transform:  all 0.5s ease;
+}
+
+#game{
+    visibility: hidden;
+    
+}
+
+#good, #bad{
+    visibility: hidden;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 5px;
+}
+#good p button, #bad p button{
+    top: 85%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+}
+
+#good p button:hover, #bad p button:hover{
+    background-color: #103f49;
+}
+
+#good p, #bad p{
+    margin: 5px;
+    font-size: 150px;
+}
+
+#good #score, #bad #score{
+    font-size: 45px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+#time, #pops, #level{
+    position: absolute;
+    text-align: left;
+    font-size: 30px;
+    margin-top:0px;
+    left: 2%;
+    color: white; 
+}
+
+#time{
+    top: 90px;
+}
+
+#pops{
+    top: 45px;
+}
+
+p button{
+    position: absolute;
+    font-size: 30px;
+    margin-top:0px;
+    left: 30%;
+    top: 8%; 
+}
+
+
+p{
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;   
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;   
+}
+
+#good .btnSave button, #bad .btnSave button{
+    left: 75%;
+}
+
+#game button{
+    
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    left: 69%;
+    
+}
+
+#game button:hover{
+    background-color: #103f49;
+}
+
+#name_player{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: none;
+    font-size: 30px;
+    background-color: #103339;
+    margin: 10px;
+    padding: 15px;
+}
+
+#name_player button{
+    margin: 2px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#name_player button:hover{
+    background-color: #103f49;
+}
+
+#name_input{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#name_player p{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 1px;
+}
